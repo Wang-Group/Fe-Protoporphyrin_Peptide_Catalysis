@@ -1,0 +1,21 @@
+name: esm2-ton-gen
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch>=2.5
+  - pytorch-cuda=12.4
+  - pandas>=2.2
+  - openpyxl>=3.1
+  - scikit-learn>=1.5
+  - numpy>=1.26
+  - scipy>=1.12
+  - tqdm>=4.66
+  - pytest>=8.2
+  - pip
+  - pip:
+      - transformers>=4.46
+      - peft>=0.15
