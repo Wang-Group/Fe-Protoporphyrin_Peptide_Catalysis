@@ -15,14 +15,14 @@ The default model is `facebook/esm2_t12_35M_UR50D` (fast and GPU-friendly). You 
 From this folder:
 
 ```powershell
-C:\Users\yibinjiang\anaconda3\Scripts\conda.exe env create -f environment.yml
-C:\Users\yibinjiang\anaconda3\Scripts\conda.exe activate esm2-ton-gen
+conda env create -f environment.yml
+conda activate esm2-ton-gen
 ```
 
 If conda activation is not available in your shell, run commands with:
 
 ```powershell
-C:\Users\yibinjiang\anaconda3\envs\esm2-ton-gen\python.exe ...
+conda run -n esm2-ton-gen python ...
 ```
 
 ## 2) Check GPU
